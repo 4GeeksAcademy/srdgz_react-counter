@@ -5,15 +5,15 @@
 }
 
 .box {
-    width: 80px;
-    height: 100px;
+    width: 100px;
+    height: 140px;
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     margin: 10px;
     padding-top: 10px;
-    border-radius: 5px;  
+    border-radius: 5px;
     border: solid 1px lightgrey;
     position: relative;
 }

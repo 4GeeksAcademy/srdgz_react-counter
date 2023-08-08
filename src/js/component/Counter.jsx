@@ -1,10 +1,9 @@
 import React from "react";
-
 //include images into your bundle
 
 
 //create your first component
-const Counter = (num) => {
+export default function Counter (num) {
 	return (
 		<div className="mainBox">
 			<div className="box"><i class="fa-regular fa-clock"></i></div>
@@ -16,5 +15,5 @@ const Counter = (num) => {
 			<div className="box">{num.num1}</div>
 		</div>
 	);
-};
-export default Counter;
+}
+
